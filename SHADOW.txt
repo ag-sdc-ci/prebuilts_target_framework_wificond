@@ -1,0 +1,5 @@
+upstream_repo: system/connectivity/wificond
+framework_extractive: true
+package: org.blisslabs.ag.ext.wificond.framework
+source: https://android.googlesource.com/platform/system/connectivity/wificond
+build_type: extractive_apex

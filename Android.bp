@@ -1,0 +1,36 @@
+// Auto-generated Blueprint for system/connectivity/wificond (framework extractive)
+// Staged from Extractive APEX package: org.blisslabs.ag.ext.wificond
+
+package {
+    default_applicable_licenses: ["system_connectivity_wificond_license"],
+}
+
+license {
+    name: "system_connectivity_wificond_license",
+    visibility: [":__subpackages__"],
+    license_kinds: ["SPDX-license-identifier-Apache-2.0"],
+    license_text: ["NOTICE"],
+}
+
+filegroup {
+    name: "libwificond_ipc_aidl",
+    srcs: [
+        "aidl/android/net/wifi/nl80211/IApInterface.aidl",
+        "aidl/android/net/wifi/nl80211/IApInterfaceEventCallback.aidl",
+        "aidl/android/net/wifi/nl80211/IClientInterface.aidl",
+        "aidl/android/net/wifi/nl80211/IInterfaceEventCallback.aidl",
+        "aidl/android/net/wifi/nl80211/IPnoScanEvent.aidl",
+        "aidl/android/net/wifi/nl80211/IScanEvent.aidl",
+        "aidl/android/net/wifi/nl80211/ISendMgmtFrameEvent.aidl",
+        "aidl/android/net/wifi/nl80211/IWificond.aidl",
+        "aidl/android/net/wifi/nl80211/IWificondEventCallback.aidl",
+        "aidl/android/net/wifi/nl80211/IWifiScannerImpl.aidl",
+        "aidl/android/net/wifi/nl80211/DeviceWiphyCapabilities.aidl",
+        "aidl/android/net/wifi/nl80211/NativeScanResult.aidl",
+        "aidl/android/net/wifi/nl80211/NativeWifiClient.aidl",
+        "aidl/android/net/wifi/nl80211/PnoNetwork.aidl",
+        "aidl/android/net/wifi/nl80211/PnoSettings.aidl",
+        "aidl/android/net/wifi/nl80211/SingleScanSettings.aidl",
+    ],
+    path: "aidl",
+}
